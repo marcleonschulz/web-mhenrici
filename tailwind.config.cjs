@@ -7,12 +7,12 @@ const config = {
 			accent: '#19B3D4',
 			banner: '#1B1B1B',
 			grey: '#E5E5E5',
-			white: '#F2F2F2',
+			white: '#F2F2F2'
 		},
 		extend: {}
 	},
 
-	plugins: [require("daisyui")],
+	plugins: [require('daisyui')]
 };
 
 module.exports = config;
