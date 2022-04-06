@@ -2,6 +2,7 @@
 	import '../app.scss';
 	import Nav  from '../components/nav.svelte';
 	import Footer  from '../components/footer.svelte';
+	import Glow from "../components/glow.svelte";
 	let test = [{
 	name: "Home",
 	url: "/"
@@ -16,6 +17,7 @@
   },]
 </script>
 
+<Glow />
 <Nav menu={test} dropdown={null} dropdownname='' menuname='' svgpath='/Logo.svg'/>
 <slot />
 <Footer text="TESTER jaksfhjasfhals"/>
