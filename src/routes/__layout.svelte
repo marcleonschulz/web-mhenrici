@@ -1,5 +1,21 @@
-<script>
-	import '../app.css';
+<script lang="ts">
+	import '../app.scss';
+	import Nav  from '../components/nav.svelte';
+	import Footer  from '../components/footer.svelte';
+	let test = [{
+	name: "Home",
+	url: "/"
+  },
+  {
+	name: "Service",
+	url: "/service"
+  },
+  {
+	name: "Kontakt",
+	url: "/kontakt"
+  },]
 </script>
 
+<Nav menu={test} dropdown={null} dropdownname='' menuname='Marc Schulz' />
 <slot />
+<Footer text="TESTER jaksfhjasfhals"/>
