@@ -16,11 +16,12 @@
 	</div>
 </div>
 
-<div class="flex flex-col w-full lg:flex-row bg-accent">
+<div class="bg-banner bg-opacity-100 w-full" >
+<div class="flex flex-col w-4/5 lg:flex-row m-auto">
 	<div class="grid flex-grow h-72 card rounded-box place-items-center">
 		<Card
-			header="Was wir anbieten"
-			text="Wir definieren die Art sich mit Kunden zu verbinden neu."
+			header="Unser Service"
+			text="Wir definieren die Art wie sich sich mit Kunden verbinden neu."
 			icon={null}
 		/>
 	</div>
@@ -47,6 +48,7 @@
 			icon={{ on: '🤝', off: '🧘' }}
 		/>
 	</div>
+</div>
 </div>
 
 <div class="w-full my-32 max-w-screen-2xl">
