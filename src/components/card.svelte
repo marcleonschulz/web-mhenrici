@@ -3,7 +3,7 @@
     export let text = "";
     export let icon;
 </script>
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card w-96">
     {#if icon}
     <figure class="px-10 pt-10">
         <label class="swap swap-flip text-4xl">
