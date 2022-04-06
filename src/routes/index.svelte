@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Card from '../components/card.svelte';
+	import About from '../components/aboutcard.svelte';
 </script>
 
 <div class="hero min-h-screen bg-base-200">
@@ -46,4 +47,8 @@
 			icon={{ on: '🤝', off: '🧘' }}
 		/>
 	</div>
+</div>
+
+<div class="w-full my-32 max-w-screen-2xl">
+ <About />
 </div>
