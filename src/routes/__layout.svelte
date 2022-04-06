@@ -17,7 +17,8 @@
   },]
 </script>
 
-<Glow />
+<Glow top={true} />
 <Nav menu={test} dropdown={null} dropdownname='' menuname='' svgpath='/Logo.svg'/>
 <slot />
 <Footer text="TESTER jaksfhjasfhals"/>
+<Glow top={false} />
