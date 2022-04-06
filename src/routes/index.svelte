@@ -29,7 +29,7 @@
 			header="Marketing"
 			text="Hochwertige Beiträge und Betreuung. 
 		Beratung und Strategien für ihren Werbeauftritt."
-			icon={{ on: '📢', off: '💰' }}
+			icon={{ off: '📢', on: '💰' }}
 		/>
 	</div>
 	<div class="grid flex-grow h-72 card bg-base-300 rounded-box place-items-center">
