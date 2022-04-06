@@ -7,3 +7,6 @@
 		<p>{text}</p>
 	</div>
 </footer>
+
+<style>
+</style>
