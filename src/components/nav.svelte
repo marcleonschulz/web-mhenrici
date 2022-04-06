@@ -6,7 +6,7 @@
 	export let svgpath;
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-white bg-opacity-40 z-10 backdrop-blur-md fixed backdrop-brightness-75">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<!-- svelte-ignore a11y-label-has-associated-control -->
@@ -55,7 +55,7 @@
 			</ul>
 		</div>
 		
-		<a name="menuname" class="btn btn-ghost normal-case text-xl"><img src="{svgpath}" alt="Logo" class="h-10 w-10" /></a>
+		<a name="menuname" class="btn btn-ghost normal-case text-xl z-10"><img src="{svgpath}" alt="Logo" class="h-10 w-10" /></a>
 	</div>
 
 	<div class="navbar-center hidden lg:flex">
