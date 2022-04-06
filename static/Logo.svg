@@ -2,7 +2,7 @@
 
     <style>
         g {
-      fill: black;
+      fill: white;
     }
     @media (prefers-color-scheme: dark) {
       g {
