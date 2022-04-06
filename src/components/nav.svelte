@@ -3,6 +3,7 @@
 	export let menuname;
 	export let dropdown = [];
 	export let dropdownname;
+	export let svgpath;
 </script>
 
 <div class="navbar bg-base-100">
@@ -53,7 +54,8 @@
 				{/if}
 			</ul>
 		</div>
-		<a name="menuname" class="btn btn-ghost normal-case text-xl">{menuname}</a>
+		
+		<a name="menuname" class="btn btn-ghost normal-case text-xl"><img src="{svgpath}" alt="Logo" class="h-10 w-10" /></a>
 	</div>
 
 	<div class="navbar-center hidden lg:flex">

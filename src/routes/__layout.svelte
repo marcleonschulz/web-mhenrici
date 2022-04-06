@@ -16,6 +16,6 @@
   },]
 </script>
 
-<Nav menu={test} dropdown={null} dropdownname='' menuname='Marc Schulz' />
+<Nav menu={test} dropdown={null} dropdownname='' menuname='' svgpath='/Logo.svg'/>
 <slot />
 <Footer text="TESTER jaksfhjasfhals"/>
