@@ -21,4 +21,4 @@
 <Glow top={false} />
 <Nav menu={test} dropdown={null} dropdownname='' menuname='' svgpath='/Logo.svg'/>
 <slot />
-<Footer text="TESTER jaksfhjasfhals"/>
+<Footer text="Websolutions & Marketing" company="Maximilian Henrici" year="2022" svgpath="/Logo.svg" />
