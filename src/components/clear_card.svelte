@@ -8,8 +8,8 @@
         {#if typeof titel === "string"}
         <h2 class="card-title">{titel}</h2>
         {:else}
-        <h1>{titel[0]}</h1>
-        <h2>{titel[1]}</h2>
+        <h1 class="card-title">{titel[0]}</h1>
+        <h2 class="card-title">{titel[1]}</h2>
         {/if}
         {#each text as item}
         <h3>{item}</h3>
