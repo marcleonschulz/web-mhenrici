@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Card from '../components/card.svelte';
-	import About from '../components/aboutcard.svelte';
+	import ClearCard from '../components/clear_card.svelte';
 </script>
 
 <div class="hero min-h-screen bg-base-200">
@@ -49,6 +49,19 @@
 	</div>
 </div>
 
-<div class="w-full my-32 max-w-screen-2xl">
- <About />
+<div class="hero min-h-screen bg-base-200">
+	<div class="hero-content">
+	<ClearCard
+		text={[
+			'Websites sind für uns nicht nur ein einfacher Job, sie sind eine Kunstform. \nMarketing ist egal über welche Form und in welcher Art ein Job für den es kein einfaches Template gibt.',
+			'Ein Webauftritt muss betreut und gemanged werden. Wir wissen wie es geht. \n Marketing, Bilder oder Videos für Social Media, kein Problem. \n Online wie offline erreichen Sie jeden Kunden. Und wenn Sie noch nicht wissen wer ihre Kunden sind, wir sind da zur findung ihrer optimalen Zielgruppe 🎯.'
+		]}
+		titel={['Über uns', 'Weil Website und Marketing 🤝 gehen.']}
+	/>
 </div>
+</div>
+<style>
+	.btn {
+		@apply rounded-full;
+	}
+</style>
