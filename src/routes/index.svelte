@@ -9,8 +9,8 @@
 			<h1 class="text-5xl font-bold">Ihr digitaler Auftritt👋</h1>
 			<p class="py-6">Unsere Aufgabe: Ihren digitalen Auftritt zu erstellen</p>
 			<div class="space-x-4">
-				<button href="/kontakt" class="btn ">Kontakt</button>
-				<button href="#" class="btn btn-ghost">Mehr Erfahren</button>
+				<a href="/kontakt" class="btn ">Kontakt</a>
+				<a href="/service" class="btn btn-ghost">Mehr Erfahren</a>
 			</div>
 		</div>
 	</div>
