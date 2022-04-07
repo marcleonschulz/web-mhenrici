@@ -55,7 +55,7 @@
 			</ul>
 		</div>
 		
-		<a name="menuname" class="btn btn-ghost normal-case text-xl z-10"><img src="{svgpath}" alt="Logo" class="h-10 w-10" /></a>
+		<a name="menuname" class="btn btn-ghost normal-case text-xl z-10" href="/"><img src="{svgpath}" alt="Logo" class="h-10 w-10" /></a>
 	</div>
 
 	<div class="navbar-center hidden lg:flex">
