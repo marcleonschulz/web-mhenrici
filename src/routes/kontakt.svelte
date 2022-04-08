@@ -8,7 +8,7 @@
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Hier beginnt ihr Webauftritt</h1>
 			<p class="py-6">Einfach das Formular ausfüllen, anrufen oder uns eine Mail schreiben.</p>
-			<button class="btn btn-primary">Service</button>
+			<a class="btn btn-primary" href="/service">Service</a>
 		</div>
 	</div>
 </div>
@@ -56,25 +56,28 @@
 			<p class="py-6">Geben Sie ihre Mail ein, wir verbinden uns mit der richtigen Person</p>
 		</div>
 		<div class="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
-			<div class="card-body">
+			<form class="card-body" action="https://formsubmit.co/maximilian@mhenrici.de" method="POST">
 				<div class="form-control">
 					<!-- svelte-ignore a11y-label-has-associated-control -->
 					<label class="label">
 						<span class="label-text">Email</span>
 					</label>
-					<input type="text" placeholder="email" class="input input-bordered" />
+					<input type="email" name="email" placeholder="Email" class="input input-bordered" />
 				</div>
 				<div class="form-control">
 					<!-- svelte-ignore a11y-label-has-associated-control -->
 					<label class="label">
 						<span class="label-text">kleine Einführung</span>
 					</label>
-					<textarea class="textarea textarea-bordered h-24" placeholder="der Text" />
+					<textarea class="textarea textarea-bordered h-24" name="project-discription" placeholder="Wie können wir Ihnen helfen?" />
 				</div>
 				<div class="form-control mt-6">
 					<button class="btn btn-primary">Start Projekt</button>
 				</div>
-			</div>
+				<input type="hidden" name="_next" value="https://mhenrici.de">
+				<input type="text" name="_honey" style="display:none">
+				<input type="hidden" name="_captcha" value="false">
+			</form>
 		</div>
 	</div>
 </div>
