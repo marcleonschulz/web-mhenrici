@@ -62,11 +62,17 @@
             </div>
 </div>
 
-<div class="text-center mb-40 mt-20 max-w-7xl mx-auto">
-    <hr class="border-[3px] border-accent w-4/5 mx-auto">
-    <p class="font-semibold text-xl m-10">Erfahren Sie wie wir Ihnen helfen können</p>
-    <a href="/kontakt" class="btn">Kontakt</a>
+<div class="w-full overflow-x-hidden">
+    <div class="text-center mb-40 mt-20 max-w-7xl mx-auto">
+        <hr class="border-[3px] border-accent w-4/5 mx-auto">
+        <p class="font-semibold text-xl m-10">Erfahren Sie wie wir Ihnen helfen können</p>
+        <div class="space-x-4">
+            <a href="/kontakt" class="btn ">Kontakt</a>
+        </div>
+    </div>
 </div>
+
+
 
 <style>
 	.btn {

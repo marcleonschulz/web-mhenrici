@@ -81,3 +81,9 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.btn {
+		@apply rounded-full;
+	}
+</style>
