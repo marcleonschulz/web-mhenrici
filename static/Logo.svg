@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><path d="M27.849,44.506l-0.048,-25.07l-8.613,11.867l-2.175,0l-9.094,-11.725l0,24.928l-4.058,-0l-0,-31.412l3.396,0l10.938,14.156l10.268,-14.156l3.877,0l0.047,31.412l-4.538,-0Z"/><path d="M53.739,13.094l0,31.412l-4.49,-0l-0,-13.205l-14.453,-0l-0,-4.113l14.453,-0l-0,-14.094l4.49,0Z"/></g>
+
+    <style>
+        g {
+      fill: white;
+    }
+    @media (prefers-color-scheme: dark) {
+      g {
+        fill: white;
+        
+      }
+    }
+    </style>
+
+</svg>

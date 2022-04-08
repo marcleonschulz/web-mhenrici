@@ -7,12 +7,26 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-			postcss: true
+			postcss: true,
+
+			scss: {
+				prependData: '@use "src/variables.scss" as *;'
+			}
 		})
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+
+		vite: {
+			css: {
+				preprocessorOptions: {
+					scss: {
+						additionalData: '@use "src/variables.scss" as *;'
+					}
+				}
+			}
+		}
 	}
 };
 
