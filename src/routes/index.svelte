@@ -9,16 +9,16 @@
 			<h1 class="text-5xl font-bold">Ihr digitaler Auftritt👋</h1>
 			<p class="py-6">Unsere Aufgabe: Ihren digitalen Auftritt zu erstellen</p>
 			<div class="space-x-4">
-				<a href="/kontakt" class="btn ">Kontakt</a>
-				<a href="/service" class="btn btn-ghost">Mehr Erfahren</a>
+				<button href="/kontakt" class="btn ">Kontakt</button>
+				<button href="#" class="btn btn-ghost">Mehr Erfahren</button>
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="bg-banner bg-opacity-100 w-full" >
-<div class="flex flex-col w-4/5 lg:flex-row m-auto">
-	<div class="grid flex-grow h-72 card rounded-box place-items-center">
+<div class="flex flex-col w-9/10 lg:flex-row m-auto">
+	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="Unser Service"
 			text="Wir definieren die Art wie sich sich mit Kunden verbinden neu."
@@ -26,7 +26,7 @@
 		/>
 	</div>
 	<!--<div class="divider lg:divider-horizontal">OR</div>-->
-	<div class="grid flex-grow h-72 card rounded-box place-items-center">
+	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="Marketing"
 			text="Hochwertige Beiträge und Betreuung. 
@@ -34,14 +34,14 @@
 			icon={{ off: '📢', on: '💰' }}
 		/>
 	</div>
-	<div class="grid flex-grow h-72 card rounded-box place-items-center">
+	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="WebDevelopment"
 			text="Websites die nicht nur beeindruckend Aussehen, sondern auch welche ihre Message zur Welt trägt."
 			icon={{ on: '🖥', off: '📲' }}
 		/>
 	</div>
-	<div class="grid flex-grow h-72 card rounded-box place-items-center">
+	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="Beratung"
 			text="Egal ob es nur um Vorschläge der Optimierung oder um Strategien für die Digitalewelt geht, wir stehen ihnen zur Seite."
@@ -62,7 +62,6 @@
 		/>
 	</div>
 </div>
-
 <style>
 	.btn {
 		@apply rounded-full;
