@@ -3,6 +3,11 @@
 	import ClearCard from '../components/clear_card.svelte';
 </script>
 
+<svelte:head>
+  <title>Service</title>
+</svelte:head>
+
+
 <div class="hero min-h-screen bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
