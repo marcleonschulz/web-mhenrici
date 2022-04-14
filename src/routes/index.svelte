@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
+  <title>MH - Home</title>
 </svelte:head>
 
 

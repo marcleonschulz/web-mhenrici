@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Kontakt</title>
+  <title>MH - Kontakt</title>
 </svelte:head>
 
 
