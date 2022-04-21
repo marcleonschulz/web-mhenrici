@@ -5,6 +5,12 @@
 
 <svelte:head>
   <title>MH - Home</title>
+  <meta http-equiv="Pragma" content="cache">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta http-equiv="content-Language" content="de">
+  <meta name="description" content="Ich erstelle und verbessere den online Auftritt ihres Geschäfts. Als Berater oder Entwickler stehe ich ihnen zur Seite.">
+  <meta name="keywords" content="Beratung, Entwicklung, Website, Apps, online, Marketing, erstellen">
+  <meta name="revisit-after" content="7 days">
 </svelte:head>
 
 

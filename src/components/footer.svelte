@@ -12,6 +12,7 @@
 		{company} <br>{text}
 	  </p> 
 	  <p>Copyright © {year} - All rights reserved</p>
+	  <p><a href="/impressum">Impressum</a> ● <a href="/datenschutz">Datenschutz</a></p>
 	</div> 
   </footer>
 
