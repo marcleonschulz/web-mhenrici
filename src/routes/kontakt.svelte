@@ -48,7 +48,7 @@
 			<Card
 				header="Entwickeln und 
                 Veröffentlichen"
-				text="Gemeinsam lassen wir ihre Ideen wie Magie -und programmierung- wahr werden. "
+				text="Gemeinsam lassen wir Ihre Ideen mit Magie - und mit etwas Programmierung - wahr werden."
 				icon={{ on: '💻', off: '🎆' }}
 			/>
 		</div>

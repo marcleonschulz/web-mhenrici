@@ -32,7 +32,7 @@
 	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="Unser Service"
-			text="Wir definieren die Art wie sich sich mit Kunden verbinden neu."
+			text="Wir definieren die Art, wie Sie sich mit Kunden verbinden, neu."
 			icon={null}
 		/>
 	</div>
@@ -41,21 +41,22 @@
 		<Card
 			header="Marketing"
 			text="Hochwertige Beiträge und Betreuung. 
-		Beratung und Strategien für ihren Werbeauftritt."
+		Beratung und Strategien für Ihren Werbeauftritt."
 			icon={{ off: '📢', on: '💰' }}
 		/>
 	</div>
 	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="WebDevelopment"
-			text="Websites die nicht nur beeindruckend Aussehen, sondern auch welche ihre Message zur Welt trägt."
+			text="Websites, die nicht nur beeindruckend aussehen, sondern auch Ihre Botschaft in die Welt tragen."
 			icon={{ on: '🖥', off: '📲' }}
 		/>
 	</div>
 	<div class="grid flex-grow h-72 card place-items-center">
 		<Card
 			header="Beratung"
-			text="Egal ob es nur um Vorschläge der Optimierung oder um Strategien für die Digitalewelt geht, wir stehen ihnen zur Seite."
+			text="Egal, ob es sich um Optimierungsvorschläge oder um Strategien für die digitale Welt handelt, wir
+			stehen Ihnen zur Seite."
 			icon={{ on: '🤝', off: '🧘' }}
 		/>
 	</div>
@@ -66,8 +67,8 @@
 	<div class="hero-content">
 		<ClearCard
 			text={[
-				'Websites sind für uns nicht nur ein einfacher Job, sie sind eine Kunstform. \nMarketing ist egal über welche Form und in welcher Art ein Job für den es kein einfaches Template gibt.',
-				'Ein Webauftritt muss betreut und gemanged werden. Wir wissen wie es geht. \n Marketing, Bilder oder Videos für Social Media, kein Problem. \n Online wie offline erreichen Sie jeden Kunden. Und wenn Sie noch nicht wissen wer ihre Kunden sind, wir sind da zur findung ihrer optimalen Zielgruppe 🎯.'
+				'Websites sind für uns nicht nur ein einfacher Job, sie sind eine Kunstform. \n Marketing ist, egal in welcher Form und Art, ein Job für den es keine einfache Vorlage gibt.',
+				'Ein Webauftritt muss betreut und gemanagt werden. Wir wissen, wie es geht. Marketing, Bilder oder Videos für Social Media, kein Problem. Online wie offline erreichen Sie jeden Kunden. Und wenn Sie noch nicht wissen, wer Ihre Kunden sind, sind wir da, um ihre optimale Zielgruppe zu finden 🎯 .'
 			]}
 			titel={['Über uns', 'Weil Website und Marketing 🤝 gehen.']}
 		/>

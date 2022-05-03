@@ -12,7 +12,7 @@
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Was wir machen</h1>
-			<p class="py-6">All unsere Dienstleistungen im Überblick</p>
+			<p class="py-6 text-lg"> 💯 personalisierter Webauftritt</p>
 			<div class="space-x-4">
 				<a href="/kontakt" class="btn ">Kontakt</a>
 			</div>
@@ -24,9 +24,9 @@
     <div class="mb-20 relative lg:-left-32 xl:-left-32">
     <ClearCard
     text={[
-            'Social Media Marketing | Facebook, Instagram, Pinterest, TikTok, YouTube',
-            'Website promotion (SEO) | Google, Bing, Yahoo',
-            'E-Mail Marketing | E-Mail listen, Newsletter, Abonoments',
+            'Social-Media-Marketing | Facebook, Instagram, Pinterest, TikTok, YouTube',
+            'Website Promotion (SEO/SEM) | Google, Bing, Yahoo',
+            'E-Mail Marketing | E-Mail Listen, Newsletter, Abonnements',
             'Beratung für Strategien'
 			]}
 			titel={['', 'Marketing']}
@@ -50,7 +50,7 @@
                 text={[
                     'Logo',
                     'Marketing Materialien',
-                    'Websites design',
+                    'Website Design',
                 ]}
                 titel={['', 'Design']}
             />
@@ -69,7 +69,7 @@
 
 <div class="w-full overflow-x-hidden">
     <div class="text-center mb-40 mt-20 max-w-7xl mx-auto">
-        <hr class="border-[3px] border-accent w-4/5 mx-auto">
+        <hr class="border-[3px] border-accent w-4/5 mx-auto background-accent">
         <p class="font-semibold text-xl m-10">Erfahren Sie wie wir Ihnen helfen können</p>
         <div class="space-x-4">
             <a href="/kontakt" class="btn ">Kontakt</a>
