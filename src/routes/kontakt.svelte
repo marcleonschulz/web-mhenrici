@@ -23,7 +23,7 @@
 		<div class="grid flex-grow h-72 card place-items-center">
 			<Card
 				header="Wie wir arbeiten"
-				text="Mit drei Schritten zu ihrer online Präsenz."
+				text="Mit drei Schritten zu Ihrer online Präsenz."
 				icon={null}
 			/>
 		</div>
@@ -58,7 +58,7 @@
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<div class="text-center lg:text-left">
 			<h1 class="text-5xl font-bold">Let’s meet</h1>
-			<p class="py-6">Geben Sie ihre Mail ein, wir verbinden uns mit der richtigen Person</p>
+			<p class="py-6">Geben Sie ihre Mail ein, wir verbinden Sie mit der richtigen Person</p>
 		</div>
 		<div class="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
 			<form class="card-body" action="https://formsubmit.co/maximilian@mhenrici.de" method="POST">
@@ -67,7 +67,7 @@
 					<label class="label">
 						<span class="label-text">Email</span>
 					</label>
-					<input type="email" name="email" placeholder="Email" class="input input-bordered" />
+					<input type="email" name="email" placeholder="Email" class="input input-bordered" required/>
 				</div>
 				<div class="form-control">
 					<!-- svelte-ignore a11y-label-has-associated-control -->
