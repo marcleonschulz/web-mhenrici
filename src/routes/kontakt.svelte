@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Card from '../components/card.svelte';
 	import ClearCard from '../components/clear_card.svelte';
+
 </script>
 
 <svelte:head>
@@ -12,11 +13,21 @@
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Hier beginnt ihr Webauftritt</h1>
-			<p class="py-6">Einfach das Formular ausfüllen, anrufen oder uns eine Mail schreiben.</p>
+		<br />
+			<div>
+				<span class="py-6">Einfach das Formular ausfüllen, 
+					<div class="tooltip" data-tip="+4917650426079">
+						<span class="underline ">anrufen</span>
+					</div> oder uns eine <a href="mailto:maximilian@mhenrici.de" class="underline">Mail</a> schreiben.
+				</span>
+			</div>
+			<br />
 			<a class="btn btn-primary" href="/service">Service</a>
 		</div>
 	</div>
 </div>
+
+
 
 <div class="bg-banner bg-opacity-100 w-full">
 	<div class="flex flex-col w-9/10 lg:flex-row m-auto">
